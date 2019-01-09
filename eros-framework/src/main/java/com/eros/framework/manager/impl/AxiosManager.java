@@ -246,7 +246,8 @@ public class AxiosManager extends Manager {
             GetBuilder getBuilder = (GetBuilder) builder;
 
             for (Map.Entry<String, String> entry : params.entrySet()) {
-                getBuilder.addParams(entry.getKey().trim(), entry.getValue().trim());
+
+                getBuilder.addParams(entry.getKey().trim(), entry.getValue() != null ?entry.getValue().trim():null);
             }
         }
 
