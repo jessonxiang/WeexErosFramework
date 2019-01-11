@@ -16,7 +16,7 @@
         <ImageView
             android:id="@+id/itemIconIv"
             android:layout_width="wrap_content"
-            android:layout_height="27dp"
+            android:layout_height="18dp"
             android:layout_marginTop="2dp"
             tools:src="@drawable/ic_launcher" />
 
